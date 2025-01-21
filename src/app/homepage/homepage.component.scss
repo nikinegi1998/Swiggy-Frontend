@@ -1,0 +1,66 @@
+.header{
+    background: #ff5200;
+    color: #fff;
+
+    nav{
+        padding: 2.25rem 0;
+    }
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        color: #fff;
+        margin: 0 1rem;
+    }
+
+    button{
+        padding: 0.5rem;
+        color: #fff;
+        font-weight: 600;
+        margin: 0 0 0 1.25rem;
+        border-radius: 13px;
+        width: 9rem;
+        padding: 1rem;
+
+        span{
+            padding-left: 0.25rem;
+        }
+    }
+}
+
+.get-app-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 500;
+}
+
+.sign-in-btn{
+    background-color: #000;
+    border: 1px solid #000;
+    font-weight: 500;
+}
+
+.container{
+    padding: 5rem 0 3rem;
+
+    h1{
+        text-align: center;
+    }
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-around;
+    .card{
+        background-color: #fff;
+        color: #000;
+        border-radius: 23px;
+        padding: 1rem;
+    }
+}

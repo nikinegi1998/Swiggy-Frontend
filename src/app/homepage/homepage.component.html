@@ -1,0 +1,54 @@
+<div class="header">
+
+    <!-- nav items -->
+    <nav class="flex">
+            <p-image src="../../assets/Swiggy_logo.png" alt="swiggy" width="160" />
+        <div class="flex">
+            <a href="/">Swiggy Corporate</a>
+            <a href="/">Partner with us</a>
+            <button class="get-app-btn">Get the App
+                <span>
+                    <i class="pi pi-arrow-up-right
+                    "></i>
+                </span>
+            </button>
+            <button class="sign-in-btn" type="button">Sign in</button>
+        </div>
+    </nav>
+
+    <!-- banner -->
+     <div class="container">
+        
+        <h1>Order food & groceries. Discover best restaurants. Swiggy it!
+        </h1>
+
+        <div class="flex-card">
+            <div class="card" (click)="redirectTo('delivery')">
+                <h2>FOOD DELIVERY </h2>
+                <h3>FROM RESTAURANTS</h3>
+                <h4>UPTO 60% OFF</h4>
+            </div>
+
+            <div  class="card" (click)="redirectTo('instamart')">
+                <h2>INSTAMART</h2>
+                <h3>INSTANT GROCERY</h3>
+                <h4>UPTO 60% OFF</h4>
+            </div>
+
+            <div  class="card" (click)="redirectTo('dineout')">
+                <h2>DINEOUT</h2>
+                <h3>EAT OUT & SAVE MORE</h3>
+                <h4>UPTO 50% OFF</h4>
+            </div>
+
+            <div  class="card" (click)="redirectTo('genie')">
+                <h2>GENIE</h2>
+                <h3>PICK-UP & DROP</h3>
+                <h4>UPTO 60% OFF</h4>
+            </div>
+        </div>
+        
+
+     </div>
+
+</div>
