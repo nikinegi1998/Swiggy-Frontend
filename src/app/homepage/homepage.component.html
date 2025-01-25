@@ -8,16 +8,33 @@
             <a href="/">Partner with us</a>
             <button class="get-app-btn">Get the App
                 <span>
-                    <i class="pi pi-arrow-up-right
-                    "></i>
+                    <i class="pi pi-arrow-up-right"></i>
                 </span>
             </button>
-            <button class="sign-in-btn" type="button">Sign in</button>
+            <button class="sign-in-btn" (click)="showLoginDialog()" type="button">Sign in</button>
         </div>
     </nav>
 
+    <!-- Login Drawer box -->   
+    <p-drawer [(visible)]="visibleLogin" position="right" 
+    styleClass="!w-full md:!w-80 lg:!w-[30rem]">
+        <ng-template pTemplate="header">
+            <div class="drawer-header">
+                <button class="close-btn" (click)="visibleLogin = false">
+                    X
+                </button>
+                <span>Right Drawer</span>
+            </div>
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+        </p>
+    </p-drawer>
+
     <!-- banner -->
-     <div class="container">
+     <!-- <div class="container">
         
         <h1>Order food & groceries. Discover best restaurants. Swiggy it!
         </h1>
@@ -49,6 +66,6 @@
         </div>
         
 
-     </div>
+     </div> -->
 
 </div>
